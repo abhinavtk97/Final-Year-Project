@@ -5,7 +5,7 @@ The code is in its initial stages and is far from a working prototype
 
 <h2>Steps to use the code </h2>
 <ul>
-  <li><h3>Clone the repo</h3><code>git clone https://github.com/abhinavtk97/Final-Year-Project.git</code><br></li>
+  <li><h3>Clone the repo</h3><code>git clone https://github.com/abhinavtk97/Fruit-Plucker-Arm.git</code><br></li>
   <li><h3>Create environment in Anaconda for the project and install tensorflow and openCV</h3>
     <pre><code>conda create --name tensorflow
 conda activate tensorflow
