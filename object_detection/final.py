@@ -3,6 +3,7 @@
 #from this repository
 #https://github.com/tensorflow/models/tree/master/research/object_detection
 
+
 import numpy as np
 import os
 import six.moves.urllib as urllib
@@ -188,7 +189,7 @@ with detection_graph.as_default():
       # Actual detection.
       output_dict = run_inference_for_single_image(image_np, detection_graph)
       # Visualization of the results of a detection.
-
+  #    print(output_dict['detection_classes'],":",output_dict['detection_scores'])
       vis_util.visualize_boxes_and_labels_on_image_array(
           image_np,
           output_dict['detection_boxes'],

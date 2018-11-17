@@ -679,6 +679,12 @@ def visualize_boxes_and_labels_on_image_array(
           color='red',
           alpha=1.0
       )
+
+## TODO: Edit this to detect only specific classes
+
+    display_str_list = box_to_display_str_map[box]
+    #if("bottle" in display_str_list[0]):
+      #draw_bounding_box_on_image_array(
     draw_bounding_box_on_image_array(
         image,
         ymin,
